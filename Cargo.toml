@@ -1,0 +1,10 @@
+[package]
+name = "lodepng-afl-fuzz-differential"
+version = "0.1.0"
+authors = ["Sergey \"Shnatsel\" Davidoff <shnatsel@gmail.com>"]
+repository = "https://github.com/Shnatsel/lodepng-afl-fuzz-differential"
+license = "CC0-1.0"
+
+[dependencies]
+afl = "0.4"
+lodepng = "2.4.0"
