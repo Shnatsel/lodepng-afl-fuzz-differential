@@ -11,7 +11,7 @@ git clone https://github.com/Shnatsel/libdiffuzz
 cd libdiffuzz
 make
 cd ..
-# Download lodepng repository (optional, you can just grab some small PNG files instead)
+# Download lodepng repository (optional, you can use http://schaik.com/pngsuite/pngsuite.html instead)
 git clone https://github.com/kornelski/lodepng-rust
 # Download this fuzzing harness, build the code with fuzzing instrumentation
 git clone https://github.com/Shnatsel/lodepng-afl-fuzz-differential
